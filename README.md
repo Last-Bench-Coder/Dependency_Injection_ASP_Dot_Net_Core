@@ -34,3 +34,5 @@ Below is the folder structure
 * Create controller and call the detail and List method using constructor injection( Create the interface variable)
 
 ![image](https://user-images.githubusercontent.com/81896060/119251129-6fe10700-bbc2-11eb-9ea4-c92819cf8e1e.png)
+
+> Main benifit of the dependency injection is if you want to change the implementor(ProductService to MyProductService), only one place you can change the i.e. Startup.cs
