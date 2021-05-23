@@ -25,9 +25,12 @@ Below is the folder structure
 
 ![image](https://user-images.githubusercontent.com/81896060/119250964-57242180-bbc1-11eb-8be7-e5b23e8c20d9.png)
 
-## ASP.Net core comes with default dependency injection feature. we need to inform who is the implementor for IProducts.cs interface.
+### ASP.Net core comes with default dependency injection feature. we need to inform who is the implementor for IProducts.cs interface.
 
-## Lets add below code in Startup.cs
+### Lets add below code in Startup.cs
 
 ![image](https://user-images.githubusercontent.com/81896060/119251029-ce59b580-bbc1-11eb-98ea-bf01f635c706.png)
 
+* Create controller and call the detail and List method using constructor injection( Create the interface variable)
+
+![image](https://user-images.githubusercontent.com/81896060/119251129-6fe10700-bbc2-11eb-9ea4-c92819cf8e1e.png)
