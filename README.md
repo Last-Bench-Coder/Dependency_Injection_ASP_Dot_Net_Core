@@ -11,3 +11,17 @@ Main benifit of the Dependency Injection is , it helps us to manage future chang
 Below is the folder structure
 
 ![image](https://user-images.githubusercontent.com/81896060/119248390-78c7dd80-bbae-11eb-9fe9-82a100725985.png)
+
+
+* Create the Folder and create the class file Product.cs
+
+    `public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+    }`
+
+* 
+
